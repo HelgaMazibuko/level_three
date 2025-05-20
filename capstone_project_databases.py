@@ -35,7 +35,7 @@ def get_book(id):
         id (int): Unique book ID number.
 
     Returns:
-        table: The 'book' table in the 'ebookstore' database.
+        tuple: A row containing the book data.
     """
 
     cursor = db.cursor()
