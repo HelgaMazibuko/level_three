@@ -100,11 +100,9 @@ def remove_book(id):
 
 # The main function of the program
 def main():
-    """This function continuously prompts the user to access the menu
-    options of what they want to do in the program.
+    """This function is the main interface loop and handles all user inputs
+    for the program.
 
-    Returns:
-        str: The menu options for the program.
     """
     print("Welcome to the eBookstore!")
 
